@@ -123,7 +123,8 @@ Date: August 29, 2018
 	.page-head-inside p{font-size:15px;line-height:15px;letter-spacing:1.5px;}
 	mark
   {
-    background-color: #98AFC7;
+    background: none;
+		color: inherit;
   }
 
 
@@ -207,7 +208,7 @@ Date: August 29, 2018
 
 		.featured-slide .container{height:100%;position:relative;}
 		.featured-content{width:600px;position:absolute;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);}
-		.featured-content-alt{width:700px;margin-left: -10%;position:absolute;top:25%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);}
+		.featured-content-alt{width:700px;position:absolute;top:25%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);}
 		.featured-content h2{font-size:40px;color:#FFFFFF;line-height:62px;letter-spacing:7px;text-transform:uppercase;margin-bottom:25px;font-weight:400;}
 		.featured-content-alt h2{font-size:40px;color:#000000;line-height:62px;letter-spacing:7px;text-transform:uppercase;margin-bottom:25px;font-weight:400;}
 		.featured-content p{font-size:15px;color:#FFFFFF;line-height:22px;margin-bottom:40px;}
