@@ -1,0 +1,8 @@
+deploy:
+  provider: s3
+  access_key_id: AKIAJISPD3UV3AB2HTRA
+  secret_access_key:
+  bucket: www.hobocodebrewing.com
+  language: node_js
+  node_js:
+    - "9.1.0"
