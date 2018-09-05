@@ -1,9 +1,9 @@
+language: node_js
+node_js:
+  - 9.1.0
 deploy:
   provider: s3
   access_key_id: AKIAJISPD3UV3AB2HTRA
   secret_access_key:
     secure: jD1tfdgUEoLO7cm5jOaW5rqMxtCPaUhsTCtcWfxfHMtj+dUnzhSM9v/NA1lgYf6CGKhioXY0plSsMd7RLZ7n86HuYrkAXwt2Nbppd/GAhk5J8KG4abmBp4iKnRztTjtfddGfn9B+kbUIQgOTxnUhyjFBSJqn/6PZLO+DGgFpT9Qv1rROsZhRjeGxVKbPpMI7AVYtLqQ1VJqZbTk6uUHJF93b7HPfB8+7EkpmC7p0n84tJ/zDZqJ8STHY1/URahQYn5x3fuT379RVLtnhLYsvCb0KXBxL814MYzMsdHpU4C1lKNdAljdA2M/4BtjMkMxI7vrYhqDcUlBAwf0VtVTRdFeLwflLiNLQZKjsepPjQxoBxuT/PfqA1UmWr35URVTIEFcKKSvJwJh+NDQ1EFtp4YBj9Mt80ng2Yfla1sJ1/JXvBk/SafY6+VgRmI3ZPaPVu21+OPgSCL3d/NeGJA0JyxgVsrwjN/AjS9i1y8ILErx1CdZVuc4E0cz/IlXnb2pAIkwgP7dFnLHvidBwpAZqthiKiJLI9x9Es7wvAjp01qoRtMv3OCv5ILlEcd0qU22CDdMypHsvnzhoUQ0tf8ZwcWDlFXd9U9qJUMaQ7QFagLI6vqMAqWZ7MPIl+lMHU5NLsGW+nBsmD2TRkIJNlHfgabaJqqmRkXx3JNC3vMQeO4c=
   bucket: www.hobocodebrewing.com
-  language: node_js
-  node_js:
-    - 9.1.0
