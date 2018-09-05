@@ -6,4 +6,4 @@ deploy:
   bucket: www.hobocodebrewing.com
   language: node_js
   node_js:
-    - node
+    - "node"
