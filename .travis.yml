@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: s3
+  access_key_id: AKIAJISPD3UV3AB2HTRA
+  secret_access_key:
+    secure: mcWN+/NvvdCMOl3kyqCvzedPLNdaak+M5nyxF6hhyaq6rhpcimRAw0x4jo7v2L1GRrox+8elS9tEHRy5UUFz9b43FB07RopaJg3xMfia8FQLBdLthonPAKlYRK/IDQZk2rZBjwkMN/q6bMsYn34SuPt+ZEDXUF7CLDVx9evrIxz4M6fCRTWn/i41jUsYfc2uLgTiNd3q6Q3dTlv4vhPthv+g61Wak6NekfhmT29VFxbhCcYVpVa7pjn+zwPiBl0a2RuUIUR3UzKSZwwFo/1Yl3Oxd4/bEmDPTfn4GC3dLIB26/WYrgAlHKMZyrootfePdlSqaIxATul91KMLlndH7D48pWqfLjliJEz1s7fXoBfL6tfCjXTZzd8EpgMPe2ExbLyrKBfvO0d1J9HZb9P9YOsCAoj8xJWlaWwk1oJIFaudwxGjsG0DK/9GrTlyFWbp0Ukr1vCT/TdR9MkR+G1b4OixuXp2+enzdkU3Vm/viEAcmc0vLj0qosxVhnrnqx2FPKtov/mQX6bZrncyTRts9gDvfKfMDMzAX15VTZYkNYYXqrXMAT8NQBiLNSA9IC0xf+iKRLhYKRWENwTkk8K2inMcd9SPASDyGcO3gNUnR20Q0C027ExEwi6u6JvxVCyRh2tle4Sakfp8SpqVPbvoqWZ5qu13MXcXuFgciNY3ELI=
+  bucket: www.hobocodebrewing.com
+  region: us-east-2
+  on:
+    repo: PatrickConti/webwebsitesite
