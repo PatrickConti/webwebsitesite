@@ -1,0 +1,19 @@
+{
+  "name": "hobo",
+  "version": "1.0.0",
+  "description": "autoupdater",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickConti/webwebsitesite.git"
+  },
+  "author": "Patrick Buoniconti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrickConti/webwebsitesite/issues"
+  },
+  "homepage": "https://github.com/PatrickConti/webwebsitesite#readme"
+}
