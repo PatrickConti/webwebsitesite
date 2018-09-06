@@ -210,11 +210,12 @@ Date: August 29, 2018
 
 		.featured-left{left:0;text-align:left;}
 		.featured-right{right:0;text-align:right;}
+		.featured-right-alt{right:0;text-align:right;}
 		.featured-center{left:0;right:0;margin-left:auto;margin-right:auto;text-align:center;}
 
 		.featured-slide .container{height:100%;position:relative;}
-		.featured-content{width:600px;position:absolute;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);}
-		.featured-content-alt{width:700px;position:absolute;top:25%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);}
+		.featured-content{width:740px;position:absolute;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);}
+		.featured-content-alt{width:740px;position:absolute;top:25%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);}
 		.featured-content h2{font-size:40px;color:#FFFFFF;line-height:62px;letter-spacing:7px;text-transform:uppercase;margin-bottom:25px;font-weight:400;}
 		.featured-content-alt h2{font-size:40px;color:#000000;line-height:62px;letter-spacing:7px;text-transform:uppercase;margin-bottom:25px;font-weight:400;text-shadow:1px 1px rgba(255,255,255,.4);}
 		.featured-content p{font-size:15px;color:#FFFFFF;line-height:22px;margin-bottom:40px;}
