@@ -231,6 +231,11 @@ Date: August 29, 2018
 	.about-item,.team-item{margin-bottom:40px;}
 	.about-items li:last-child .about-item,.team-section li:last-child .team-item{margin-bottom:0;}
 
+	/* --- OVERWRITE TO FIX PADDING ON MOBILE --- */
+
+	.about-page-section{padding:20px 0;}
+	.about-section-inner{padding-top:80px;padding-bottom:30px;border-top:1px solid #eeeeee;}
+	.team-section-inner{padding-top:40px;}
 
 	/* -- blog posts page - style three -- */
 
