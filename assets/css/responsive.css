@@ -211,6 +211,9 @@ Date: August 29, 2018
 	.featured-content p{font-size:14px;line-height:19px;margin-bottom:35px;}
 	.featured-left,.featured-right{text-align:center;}
 
+	#featured-1-p-responsive{margin-top: -20px;}
+	#featured-2-div-responsive{margin-top: 40px;}
+
 
 	/* -- portfolio page -- */
 
@@ -220,6 +223,8 @@ Date: August 29, 2018
 	#portfolio-items{height:auto!important;}
 	#portfolio-items li{position:static!important;}
 
+	.portfolio-hover{opacity:1;}
+	.portfolio-hover-content{top:50%;}
 
 	/* -- about page -- */
 
