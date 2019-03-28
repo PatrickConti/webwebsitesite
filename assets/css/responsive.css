@@ -23,6 +23,12 @@ Date: August 29, 2018
 
 /* --- 1) Small Desktop and Tablet Landscape --- */
 @media (min-width:992px) and (max-width:1099px) {
+  /* -- HEADER -- */
+	#site-logo{width:70px;height:70px;float:left;background-image:url('assets/img/logo.jpg');background-size:100%;background-repeat:no-repeat;margin-top:5px;display:block;}
+	.header-main{height:60px;}
+	.header-wide .container{width:100%;}
+	#main-content{padding-top:60px!important;}
+
 
 	/* -- portfolio page -- */
 
@@ -41,10 +47,11 @@ Date: August 29, 2018
 
 
 	/* -- HEADER -- */
-
-		.header-main{height:70px;}
+	  #site-logo{width:70px;height:70px;float:left;background-image:url('assets/img/logo_mobile.jpg');background-size:100%;background-repeat:no-repeat;margin-top:5px;display:block;}
+		.header-main{height:60px;}
 		.header-wide .container{width:100%;}
-		#main-content{padding-top:70px!important;}
+		#main-content{padding-top:60px!important;}
+
 
 
 		/* -- nav drop down button / hamburger icon -- */
@@ -158,7 +165,10 @@ Date: August 29, 2018
 
 
 	/* -- home page-- */
-
+	#site-logo{width:70px;height:70px;float:left;background-image:url('assets/img/logo_mobile.jpg');background-size:100%;background-repeat:no-repeat;margin-top:5px;display:block;}
+	.header-main{height:60px;}
+	.header-wide .container{width:100%;}
+	#main-content{padding-top:60px!important;}
 	#home-featured-slideshow, .featured-slide,#home-featured-banner{height:550px;max-height:550px;}
 	.featured-content{width:50%;}
 	.featured-content h2{line-height:45px;}
@@ -186,6 +196,10 @@ Date: August 29, 2018
 
 	/* -- page header -- */
 
+
+	.header-main{height:65px;}
+	.header-wide .container{width:100%;}
+	#main-content{padding-top:50px!important;}
 	.page-header{min-height:200px;}
 	.page-head-inside h1{font-size:26px;line-height:32px;}
 	.page-head-inside p{font-size:13px;}
