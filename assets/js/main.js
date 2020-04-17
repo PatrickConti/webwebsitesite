@@ -1,7 +1,7 @@
 /* --------------
 
 Site name: Hobo Code Brewing Co
-Author: Corey Bothwell
+Author: PatrickConti
 Date: August 29, 2018
 
 -------------- */
